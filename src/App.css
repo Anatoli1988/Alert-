@@ -1,22 +1,25 @@
-.App {
-  text-align: center;
+
+.notification-block {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
+.notification {
+    background-color: white;
+    border: black solid 1px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.notification.success {
+    border-color: green;
 }
 
-.App-link {
-  color: #09d3ac;
+.notification.error {
+    border-color: red;
+}
+
+.notification.warning {
+    border-color: orange;
 }
